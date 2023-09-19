@@ -295,7 +295,9 @@ int main(int argc, char **argv, char **envp) {
 				//Invalid verb
 				case 3:
 					SetColor16(COLOR_RED);
-					printf("V (Bad verb %s)", reqdata->rverb);
+					printf("V (Data: ");
+					logdata(reqbuff);
+					printf(")");
 					ResetColor16();
 					RabbitErrorHandler(501, resbuff, reqdata);
 					write(csock, resbuff, strlen(resbuff));

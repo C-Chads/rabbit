@@ -1,6 +1,3 @@
-# Note
-I'm migrating Rabbit to [Codeberg](https://codeberg.org/kevidryon2/rabbit-web-server); please read [this](https://sfconservancy.org/GiveUpGitHub/) to understand why.
-
 # Rabbit
 A really small and fast (like a rabbit) nomad web server written in C, that can be installed in any directory and transferred anywhere on the file system.
 
